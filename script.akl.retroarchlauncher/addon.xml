@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.0-rc4" provider-name="chrisism">
+<addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.0-rc5" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.akl" version="1.0.0"/>
@@ -15,7 +15,7 @@
     <email>crizizz@gmail.com</email>
     <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
     <website>https://github.com/Wintermute0110/plugin.program.AKL/wiki</website>
-    <source>https://github.com/chrisism/script.ael.retroarchlauncher</source>
+    <source>https://github.com/chrisism/script.akl.retroarchlauncher</source>
     <assets>
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
