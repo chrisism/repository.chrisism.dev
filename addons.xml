@@ -53,31 +53,6 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.0.0-rc0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">ArcadeDB scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/chrisism/script.akl.arcadedb</website>
-    <source>https://github.com/chrisism/script.akl.arcadedb</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>See changelog.txt for information about the latest release.</news>
-  </extension>
 </addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.0-rc2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -366,6 +341,31 @@
     <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
     <website>https://github.com/chrisism/script.akl.nvgamestream</website>
     <source>https://github.com/chrisism/script.akl.nvgamestream</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
+</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.0.0-rc1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">ArcadeDB scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.akl.arcadedb</website>
+    <source>https://github.com/chrisism/script.akl.arcadedb</source>
     <assets>
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
