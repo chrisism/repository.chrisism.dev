@@ -372,4 +372,107 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
+</addon><addon id="skin.aeon.nox.silvo" version="8.0.2-rc8" provider-name="SiLVO">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="af_ZA">Geskep deur BigNoid, Modded deur SiLVO, en Widgets deur Mr. V</summary>
+		<summary lang="de_DE">Erstellt von BigNoid, modifiziert von SiLVO, Widgets von Mr. V</summary>
+		<summary lang="el_GR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_AU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_GB">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_NZ">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_US">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="es_ES">Creada por BigNoid, Modificada por SiLVO, y Widgets por Mr. V</summary>
+		<summary lang="et_EE">Looja: BigNoid, muutja: SiLVO, ja vidinad: Mr. V</summary>
+		<summary lang="fi_FI">BigNoidin tekem&#228; ja SILVOn muokkaama. Widgetit Mr. V:lt&#228;</summary>
+		<summary lang="fr_CA">Cr&#233;&#233; par BigNoid, modifi&#233; by SiLVO, et gadgets logiciels par Mr. V</summary>
+		<summary lang="fr_FR">Cr&#233;&#233; par BigNoid, Modd&#233; par SiLVO, avec les widgets de M. V</summary>
+		<summary lang="gl_ES">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="he_IL">&#1492;&#1502;&#1506;&#1496;&#1508;&#1514; &#1504;&#1493;&#1510;&#1512;&#1492; &#1506;&#1500; &#1497;&#1491;&#1497; BigNoid, Modded by SiLVO, and &#1493;&#1492;&#1497;&#1497;&#1513;&#1493;&#1502;&#1493;&#1504;&#1497;&#1501; &#1506;&#1500; &#1497;&#1491;&#1497; Mr. VLO</summary>
+		<summary lang="hu_HU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="is_IS">&#218;tb&#250;i&#240; af BigNoid, breytt af SiLVO, vi&#240;m&#243;tshlutar eftir Mr. V</summary>
+		<summary lang="it_IT">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="ko_KR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="lt_LT">Suk&#363;r&#279; BigNoid, modifikavo SiLVO bei valdiklius prid&#279;jo Mr. V</summary>
+		<summary lang="ms_MY">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="nb_NO">Laget av BigNoid, modifisert av SiLVO, og miniprogrammer av Mr. V.</summary>
+		<summary lang="nl_NL">Ontwikkeld door BigNoid, aangepast door SiLVO, en Widgets door Mr. V</summary>
+		<summary lang="pl_PL">Stworzona przez BigNoid, zmodyfikowana przez SiLVO, a gad&#380;ety autorstwa Mr. V</summary>
+		<summary lang="pt_BR">Criado por BigNoid, Modificado por SiLVO e Widgets por Mr. V</summary>
+		<summary lang="pt_PT">Criado por BigNoid, Modded por SiLVO, e Widgets por Mr. V</summary>
+		<summary lang="ro_RO">Creat de BigNoid, Modificat de SiLVO, &#537;i widget-uri deMr. V</summary>
+		<summary lang="ru_RU">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="sk_SK">Vytvoril BigNoid, Upravil SiLVO, miniaplik&#225;cie vytvoril Mr. V</summary>
+		<summary lang="sv_SE">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="th_TH">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="tr_TR">BigNoid taraf&#305;ndan olu&#351;turuldu; Modlar SILVO'dan, Widget'lar Mr. V'den.</summary>
+		<summary lang="vi_VN">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V - S&#7921; tr&#7903; v&#7873;</summary>
+		<summary lang="zh_CN">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="zh_TW">&#30001;BigNoid&#21407;&#21109;&#65292;SiLVO&#36914;&#34892;&#25913;&#36896;&#65292;&#20197;&#21450;&#30001;Mr. V&#35069;&#20316;&#30340;&#23567;&#24037;&#20855;</summary>
+		<description lang="af_ZA">Heeltemal oor ontwerp om 'n moderne aansig te skep, terwyl die klassieke Aeon gevoel behou word.</description>
+		<description lang="de_DE">Komplett neu designed f&#252;r ein modernes Aussehen und das klassische Aeon-Feeling beizubehalten.</description>
+		<description lang="el_GR">&#928;&#955;&#942;&#961;&#969;&#962; &#949;&#960;&#945;&#957;&#945;&#963;&#967;&#949;&#948;&#953;&#945;&#963;&#956;&#941;&#957;&#959; &#947;&#953;&#945; &#957;&#945; &#960;&#961;&#959;&#963;&#966;&#941;&#961;&#949;&#953; &#956;&#953;&#945; &#956;&#959;&#957;&#964;&#941;&#961;&#957;&#945; &#945;&#953;&#963;&#952;&#951;&#964;&#953;&#954;&#942;, &#948;&#953;&#945;&#964;&#951;&#961;&#974;&#957;&#964;&#945;&#962; &#964;&#945;&#965;&#964;&#972;&#967;&#961;&#959;&#957;&#945; &#964;&#951;&#957; &#954;&#955;&#945;&#963;&#953;&#954;&#942; &#959;&#956;&#959;&#961;&#966;&#953;&#940; &#964;&#959;&#965; Aeon.</description>
+		<description lang="en_AU">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_GB">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_NZ">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_US">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="es_ES">Completamente redise&#241;ado para crear un aspecto moderno, pero conservando el toque cl&#225;sico Aeon.</description>
+		<description lang="et_EE">T&#228;ielikult uuesti disainitud, et luua t&#228;nap&#228;evane v&#228;limus samas s&#228;ilitades klassikaline Aeoni tunnetus.</description>
+		<description lang="fi_FI">T&#228;ysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeonilta.</description>
+		<description lang="fr_CA">Compl&#232;tement remani&#233; pour cr&#233;er une apparence moderne, tout en conservant l&#8217;esprit classique d&#8217;Aeon.</description>
+		<description lang="fr_FR">Totalement revu pour cr&#233;er un look moderne, en gardant l'exp&#233;rience Aeon.</description>
+		<description lang="gl_ES">Redese&#241;ado completamente para crear unha aparencia moderna ao tempo que mant&#233;n a sensaci&#243;n do cl&#225;sico Aeon.</description>
+		<description lang="he_IL">&#1506;&#1497;&#1510;&#1493;&#1489; &#1495;&#1491;&#1513; &#1492;&#1497;&#1493;&#1510;&#1512; &#1502;&#1512;&#1488;&#1492; &#1502;&#1493;&#1491;&#1512;&#1504;&#1497; &#1488;&#1498; &#1502;&#1513;&#1502;&#1512; &#1488;&#1514; &#1492;&#1492;&#1512;&#1490;&#1513;&#1492; &#1513;&#1500; Aeon &#1492;&#1511;&#1500;&#1488;&#1505;&#1497;.</description>
+		<description lang="hr_HR">Potpuno preoblikovan moderan izgled, uz zadr&#382;ani klasi&#269;ni Aeon osje&#263;aj.</description>
+		<description lang="hu_HU">Teljesen &#225;ttervezett modern kin&#233;zet, de megtartva a klasszikus Aeon &#233;rzetet.</description>
+		<description lang="is_IS">Endurhanna&#240; n&#250;t&#237;malegt &#250;tlit &#237; anda Aeon.</description>
+		<description lang="it_IT">Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualit&#224; Aeon.</description>
+		<description lang="ko_KR">&#44256;&#51204;&#51201;&#51064; Aeon &#45712;&#45196;&#51012; &#50976;&#51648;&#54616;&#47732;&#49436; &#54788;&#45824;&#51201;&#51064; &#47784;&#49845;&#51004;&#47196; &#50756;&#51204;&#55176; &#45796;&#49884; &#46356;&#51088;&#51064;&#54616;&#50668; &#47564;&#46308;&#50632;&#49845;&#45768;&#45796;.</description>
+		<description lang="lt_LT">Pilnai atnaujinta, kad sukurt&#371; moderni&#261; i&#353;vaizd&#261;, i&#353;laikant klasikinio Aeon poj&#363;t&#303;.</description>
+		<description lang="ms_MY">Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
+		<description lang="nb_NO">Helt redesignet for &#229; tilby en moderne utforming, samtidig som den klassiske Aeon-f&#248;lelsen er beholdt.</description>
+		<description lang="nl_NL">Volledig opnieuw ontworpen om een &#8203;&#8203;moderne look te cre&#235;ren, met behoud van het klassieke Aeon-gevoel.</description>
+		<description lang="pl_PL">Ca&#322;kowicie przeprojektowana sk&#243;ra Aeon, o nowoczesnym wygl&#261;dzie, zachowuj&#261;c klasyczny uk&#322;ad sk&#243;ry Aeon.</description>
+		<description lang="pt_BR">Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Cl&#225;ssico.</description>
+		<description lang="pt_PT">Completamente redesenhado para criar um visual moderno enquanto ret&#233;m o toque cl&#225;ssico Aeon.</description>
+		<description lang="ro_RO">Complet reproiectat pentru a crea o &#238;nf&#259;&#539;i&#537;are modern&#259;, dar totu&#537;i p&#259;str&#226;nd atmosfera clasic&#259; Aeon.</description>
+		<description lang="ru_RU">&#1055;&#1086;&#1083;&#1085;&#1086;&#1089;&#1090;&#1100;&#1102; &#1087;&#1077;&#1088;&#1077;&#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1085;, &#1095;&#1090;&#1086;&#1073;&#1099; &#1089;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1099;&#1081; &#1086;&#1073;&#1083;&#1080;&#1082;, &#1089;&#1086;&#1093;&#1088;&#1072;&#1085;&#1103;&#1103; &#1087;&#1088;&#1080; &#1101;&#1090;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1077; &#1095;&#1091;&#1074;&#1089;&#1090;&#1074;&#1086; Aeon.</description>
+		<description lang="sk_SK">Kompletne prepracovan&#253; dizajn s modern&#253;m vzh&#318;adom pri zachovan&#237; klasick&#233;ho &#353;t&#253;lu Aeon.</description>
+		<description lang="sv_SE">Totalt omarbetad f&#246;r att skapa ett modernt utseende, samtidigt som man beh&#229;ller den klassiska Aeon-k&#228;nslan.</description>
+		<description lang="th_TH">&#3585;&#3634;&#3619;&#3629;&#3629;&#3585;&#3649;&#3610;&#3610;&#3651;&#3627;&#3617;&#3656;&#3627;&#3617;&#3604;&#3592;&#3604; &#3648;&#3614;&#3639;&#3656;&#3629;&#3626;&#3619;&#3657;&#3634;&#3591;&#3619;&#3641;&#3611;&#3621;&#3633;&#3585;&#3625;&#3603;&#3660;&#3607;&#3633;&#3609;&#3626;&#3617;&#3633;&#3618;, &#8203;&#8203;&#3586;&#3603;&#3632;&#3607;&#3637;&#3656;&#3618;&#3633;&#3591;&#3588;&#3591;&#3588;&#3623;&#3634;&#3617;&#3619;&#3641;&#3657;&#3626;&#3638;&#3585;&#3588;&#3621;&#3634;&#3626;&#3626;&#3636;&#3588;&#3586;&#3629;&#3591; Aeon.</description>
+		<description lang="tr_TR">Modern g&#246;r&#252;n&#252;me kavu&#351;turmak i&#231;in ba&#351;tan tasarland&#305;, klasik Aeon hissi korundu</description>
+		<description lang="vi_VN">Thi&#7871;t k&#7871; l&#7841;i ho&#224;n to&#224;n &#273;&#7875; t&#7841;o n&#234;n m&#7897;t phong c&#225;ch hi&#7879;n &#273;&#7841;i, trong khi &#273;&#243; v&#7851;n duy tr&#236; m&#7897;t c&#7843;m gi&#225;c Aeon c&#7893; &#273;i&#7875;n.</description>
+		<description lang="zh_TW">&#23436;&#20840;&#30340;&#32763;&#26032;&#35373;&#35336;&#20197;&#21109;&#36896;&#29694;&#20195;&#21270;&#30340;&#35222;&#35258;&#24863;&#21463;&#65292;&#21516;&#26178;&#20173;&#32173;&#25345;Aeon&#30340;&#32147;&#20856;&#22806;&#35264;&#12290;</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=210069</forum>
+		<website>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</website>
+		<source>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-10.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-11.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
+		</assets>
+		<news>[I][COLOR FFFF9800]v8.0.1[/COLOR][/I][CR]- Use Weblate for translations (thanks gade01)[CR]- Fix Embuary error when navigating to a TV Show Season[CR]- Add a clean paused screen option to Video OSD settings[CR]- Re-add script.grab.fanart support[CR]- Fix missing sortby labels[CR]- Add status indicator settings for BigFan[CR]- Fix Rick Dangerous error[CR]- Default letter jump fixes[CR]- Tweak MyFlix info for Episodes[CR]- Fix auto hide OSD options duplicating in other settings[I][COLOR FFFF9800]v8.0.0[/COLOR][/I][CR]- New status indicators[CR]- Add verified from Kodi Repo image + Rework language flags[CR]- Cleanup overlays + Updated HD/SD/3D indicators[CR]- Fix lyrics being covered by background for normal lyrics[CR]- Add missing buttons to DialogAddonInfo and PVRInfo[CR]- Fix typo in set ratings for UK:PG[CR]- Fix 4K Widget cases not appearing[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I]</news>
+	</extension>
 </addon></addons>
