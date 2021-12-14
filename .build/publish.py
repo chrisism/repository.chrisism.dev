@@ -56,9 +56,11 @@ def build(addon_name: str, working_directory: str, source_path:str, dest_path:st
     addons_element = ET.Element("addons")
     addons_element.append(addon_xml)
 
-    addons_tree = ET.ElementTree(addons_element)
-    addons_tree.write(addons_xml_path)
-    
+    xml_data = ET.tostring(addons_element, encoding='unicode')
+    with open(addons_xml_path, 'w') as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(str(xml_data))
+
     print(f'Hashing {addons_xml_path}')
     hash_file(addons_xml_path)
 
