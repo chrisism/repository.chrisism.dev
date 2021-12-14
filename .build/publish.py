@@ -31,21 +31,22 @@ def build(addon_name: str, working_directory: str, source_path:str, dest_path:st
     
     output_zip_name  = os.path.join(working_directory, source_path, f'{addon_name}-{version}')
     output_file_name = os.path.join(working_directory, source_path, filename)
-    directory_to_zip = os.path.join(working_directory, source_path, addon_name)
+    directory_to_zip = os.path.join(working_directory, source_path)
+    directory_to_mve = os.path.join(working_directory, source_path, addon_name)
     output_file_dest = os.path.join(working_directory, dest_path, addon_name, filename)
     directory_dest   = os.path.join(working_directory, dest_path, addon_name)
     addons_xml_path  = os.path.join(working_directory, dest_path, 'addons.xml')
 
     print(f'Zipping files in {directory_to_zip} into file {output_file_name}')
-    shutil.make_archive(output_zip_name, 'zip', directory_to_zip)
+    shutil.make_archive(output_zip_name, 'zip', root_dir=directory_to_zip, base_dir=addon_name, verbose=True)
 
     print(f'Moving zip file to {output_file_dest}')
     os.replace(output_file_name, output_file_dest)
 
     print(f'Copying src files to {directory_dest}')
-    source_files = glob.glob(f'{directory_to_zip}{os.sep}*.*', recursive=True)
+    source_files = glob.glob(f'{directory_to_mve}{os.sep}*.*', recursive=True)
     for source_file in source_files:
-        dest_file = source_file.replace(directory_to_zip, directory_dest)
+        dest_file = source_file.replace(directory_to_mve, directory_dest)
         print(f'Source: {source_file} to des: {dest_file}')
         shutil.copy(source_file, dest_file)
     
