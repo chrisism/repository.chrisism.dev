@@ -358,7 +358,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="skin.aeon.nox.silvo" version="8.0.2-rc13" provider-name="SiLVO">
+</addon><addon id="skin.aeon.nox.silvo" version="8.0.2-rc15" provider-name="SiLVO">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
 		<import addon="script.skinshortcuts" version="1.0.10" />
