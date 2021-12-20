@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.0-rc14" provider-name="chrisism,Wintermute0110">
+<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.0-rc26" provider-name="chrisism,Wintermute0110">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.routing" version="0.2.3"/>
@@ -25,6 +25,7 @@
       <screenshot>media/Estuary_ROM_Console.jpg</screenshot>
       <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
     </assets>
-    <news>See changelog.txt for information about the latest release.</news>
+    <news>[B]v1.0.0[/B]
+ - Initial release of the new AKL fork</news>
   </extension>
 </addon>
