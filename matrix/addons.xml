@@ -455,7 +455,7 @@
     <news>[B]v1.0.0[/B]
  - Initial release of the new AKL fork</news>
   </extension>
-</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.0-rc10" provider-name="chrisism">
+</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.0-rc11" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.0" />
@@ -476,10 +476,7 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>
-      Here comes the changelog
-      It contains a lot of things
-      and lines
-    </news>
+    <news>[B]v1.0.0[/B]
+ - Initial release of AKL plugin</news>
   </extension>
 </addon></addons>
