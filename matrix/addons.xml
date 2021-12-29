@@ -451,7 +451,7 @@
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
   </extension>
-</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="1.0.0-rc8" provider-name="chrisism">
+</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="1.0.0-rc9" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.0" />
