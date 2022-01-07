@@ -276,31 +276,6 @@
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
   </extension>
-</addon><addon id="script.akl.screenscraper" name="Screenscraper scraper plugin for AKL" version="1.0.0-rc5" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Screenscraper scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/chrisism/script.akl.screenscraper</website>
-    <source>https://github.com/chrisism/script.akl.screenscraper</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
-  </extension>
 </addon><addon id="skin.aeon.nox.silvo" version="8.0.2-rc21" provider-name="SiLVO">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
@@ -472,6 +447,31 @@
     <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
     <website>https://github.com/chrisism/script.akl.mobygames</website>
     <source>https://github.com/chrisism/script.akl.mobygames</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
+  </extension>
+</addon><addon id="script.akl.screenscraper" name="Screenscraper scraper plugin for AKL" version="1.0.0-rc6" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Screenscraper scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.akl.screenscraper</website>
+    <source>https://github.com/chrisism/script.akl.screenscraper</source>
     <assets>
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
