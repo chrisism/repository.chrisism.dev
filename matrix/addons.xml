@@ -458,7 +458,7 @@
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of the new AKL fork</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.1" provider-name="chrisism">
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
   </requires>
