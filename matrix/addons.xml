@@ -407,34 +407,6 @@
 		</assets>
 		<news>[I][COLOR FFFF9800]v8.0.1[/COLOR][/I][CR]- Use Weblate for translations (thanks gade01)[CR]- Fix Embuary error when navigating to a TV Show Season[CR]- Add a clean paused screen option to Video OSD settings[CR]- Re-add script.grab.fanart support[CR]- Fix missing sortby labels[CR]- Add status indicator settings for BigFan[CR]- Fix Rick Dangerous error[CR]- Default letter jump fixes[CR]- Tweak MyFlix info for Episodes[CR]- Fix auto hide OSD options duplicating in other settings[I][COLOR FFFF9800]v8.0.0[/COLOR][/I][CR]- New status indicators[CR]- Add verified from Kodi Repo image + Rework language flags[CR]- Cleanup overlays + Updated HD/SD/3D indicators[CR]- Fix lyrics being covered by background for normal lyrics[CR]- Add missing buttons to DialogAddonInfo and PVRInfo[CR]- Fix typo in set ratings for UK:PG[CR]- Fix 4K Widget cases not appearing[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I]</news>
 	</extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.0-rc11" provider-name="chrisism,Wintermute0110">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.routing" version="0.2.3" />
-      <import addon="script.module.akl" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-      <provides>executable game</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
-    <description lang="en_GB">Multi-emulator front-end and general application launcher for Kodi. Includes offline scrapers for MAME and No-Intro ROM sets and also supports scrapping ROM metadata and artwork online. ROM auditing for No-Intro ROMs using No-Intro or Redump XML DAT files. Launching of games and standalone applications is also available.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>wintermute0110@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/chrisism/plugin.program.akl</website>
-    <source>https://github.com/chrisism/plugin.program.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-      <screenshot>media/Estuary_ROM_Launcher.jpg</screenshot>
-      <screenshot>media/Estuary_ROM_Console.jpg</screenshot>
-      <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
-    </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of the new AKL fork</news>
-  </extension>
 </addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -477,5 +449,33 @@
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
+  </extension>
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.0-rc13" provider-name="chrisism,Wintermute0110">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.routing" version="0.2.3" />
+      <import addon="script.module.akl" version="1.0.2" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
+    <description lang="en_GB">Multi-emulator front-end and general application launcher for Kodi. Includes offline scrapers for MAME and No-Intro ROM sets and also supports scrapping ROM metadata and artwork online. ROM auditing for No-Intro ROMs using No-Intro or Redump XML DAT files. Launching of games and standalone applications is also available.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>wintermute0110@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/plugin.program.akl</website>
+    <source>https://github.com/chrisism/plugin.program.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+      <screenshot>media/Estuary_ROM_Launcher.jpg</screenshot>
+      <screenshot>media/Estuary_ROM_Console.jpg</screenshot>
+      <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
+    </assets>
+    <news>[B]v1.0.0[/B][CR] - Initial release of the new AKL fork</news>
   </extension>
 </addon></addons>
