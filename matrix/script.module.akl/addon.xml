@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.4~rc5" provider-name="chrisism">
+<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.4~rc6" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -17,6 +17,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Code fix for wizard dialogs.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
+    <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Code fix for wizard dialogs.[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
   </extension>
 </addon>
