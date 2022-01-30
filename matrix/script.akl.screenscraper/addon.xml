@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.screenscraper" name="Screenscraper scraper plugin for AKL" version="1.0.0~rc12" provider-name="chrisism">
+<addon id="script.akl.screenscraper" name="Screenscraper scraper plugin for AKL" version="1.0.0~rc13" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.akl" version="1.0.3"/>
@@ -22,6 +22,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
+    <news>The initial release of Screenscraper plugin for the AKL fork.</news>
   </extension>
 </addon>
