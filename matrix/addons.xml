@@ -478,4 +478,22 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
+</addon><addon id="script.module.cryptography" name="script.module.cryptography" version="36.0.3" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python ibrary module for cryptography.</summary>
+    <description lang="en_GB">Python module to be used as a library for cryptography.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>Apache BSD</license>
+    <email>crizizz@gmail.com</email>
+    <website>https://github.com/pyca/cryptography</website>
+    <source>https://github.com/pyca/cryptography</source>
+    <assets>
+      <icon>media/icon.png</icon>
+    </assets>
+    <news>[UPPERCASE]Release[/UPPERCASE][CR]- Made v36.0.2 available</news>
+  </extension>
 </addon></addons>
