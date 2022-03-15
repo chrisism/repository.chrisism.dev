@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.cryptography.all" name="script.module.cryptography" version="36.0.4~beta1" provider-name="chrisism">
+<addon id="script.module.cryptography.android" name="script.module.cryptography" version="36.0.4~beta1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.idna" version="2.5"/>
