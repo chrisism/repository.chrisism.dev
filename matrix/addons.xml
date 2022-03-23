@@ -490,7 +490,7 @@
     </assets>
     <news>[UPPERCASE]Release[/UPPERCASE][CR]- Made v36.0.2 available</news>
   </extension>
-</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc17" provider-name="chrisism">
+</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc20" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.4" />
