@@ -405,32 +405,6 @@
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
   </extension>
-</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0~rc9" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.4" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Scraper module for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can be used to scrape metadata and assets
-    from The Games DB (TGDB).
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.tgdbscraper</website>
-    <source>https://github.com/chrisism/script.akl.tgdbscraper</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
-  </extension>
 </addon><addon id="script.module.cryptography.all" name="script.module.cryptography" version="36.0.4~beta1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -516,5 +490,31 @@
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
+  </extension>
+</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0~rc10" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.5" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Scraper module for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It can be used to scrape metadata and assets
+    from The Games DB (TGDB).
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.tgdbscraper</website>
+    <source>https://github.com/chrisism/script.akl.tgdbscraper</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>The initial release of TGDB plugin for the AKL fork.</news>
   </extension>
 </addon></addons>
