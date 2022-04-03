@@ -491,7 +491,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
   </extension>
-</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0~rc12" provider-name="chrisism">
+</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="0.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.5" />
