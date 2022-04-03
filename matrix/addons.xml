@@ -491,7 +491,7 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
-</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0~rc10" provider-name="chrisism">
+</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0~rc11" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.5" />
