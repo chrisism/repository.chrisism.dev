@@ -492,7 +492,7 @@
     </assets>
     <news>First official release of this Steam Grid DB plugin for AKL.</news>
   </extension>
-</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.0~rc8" provider-name="chrisism">
+</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.5" />
