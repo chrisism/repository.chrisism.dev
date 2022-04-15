@@ -496,7 +496,7 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.6~rc5" provider-name="chrisism">
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.6~rc6" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.22.0.1" />
