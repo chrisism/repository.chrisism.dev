@@ -490,7 +490,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.[CR][UPPERCASE]v1.0.0[/UPPERCASE][CR]First official release of the Retroarchlauncher plugin for AKL.</news>
   </extension>
-</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc44" provider-name="chrisism">
+</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc45" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.6~rc9" />
