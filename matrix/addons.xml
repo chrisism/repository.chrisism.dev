@@ -494,7 +494,7 @@
     </assets>
     <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Code fix for wizard dialogs.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching ([UPPERCASE]14)[/UPPERCASE][CR]- Use translated path for execution log files ([UPPERCASE]15)[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
   </extension>
-</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.2~rc4" provider-name="chrisism">
+</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.6" />
