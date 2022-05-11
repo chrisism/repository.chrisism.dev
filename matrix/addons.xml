@@ -517,4 +517,76 @@
 		</assets>
 		<news>[I][COLOR FFFF9800]v8.0.1[/COLOR][/I][CR]- Use Weblate for translations (thanks gade01)[CR]- Fix Embuary error when navigating to a TV Show Season[CR]- Add a clean paused screen option to Video OSD settings[CR]- Re-add script.grab.fanart support[CR]- Fix missing sortby labels[CR]- Add status indicator settings for BigFan[CR]- Fix Rick Dangerous error[CR]- Default letter jump fixes[CR]- Tweak MyFlix info for Episodes[CR]- Fix auto hide OSD options duplicating in other settings[I][COLOR FFFF9800]v8.0.0[/COLOR][/I][CR]- New status indicators[CR]- Add verified from Kodi Repo image + Rework language flags[CR]- Cleanup overlays + Updated HD/SD/3D indicators[CR]- Fix lyrics being covered by background for normal lyrics[CR]- Add missing buttons to DialogAddonInfo and PVRInfo[CR]- Fix typo in set ratings for UK:PG[CR]- Fix 4K Widget cases not appearing[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I]</news>
 	</extension>
+</addon><addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.7">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.1.1" />
+        <import addon="script.artistslideshow" version="3.3.1+matrix.1" />
+        <import addon="script.image.resource.select" version="3.0.2" />
+        
+        <import addon="plugin.program.autocompletion" version="2.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="2.4.36" />
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="resource.images.studios.white" version="0.0.24" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+        <import addon="resource.images.weathericons.outline-hd" version="0.0.3" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+        <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+            0.7.6
+                - Create french translation (thanks @ludovik35)
+                - Add EPG icon in PVR Guide Info (thanks @ludovik35)
+                - fix: black borders in square wall (thanks @codeflorist)
+            0.7.5
+                - Revert previous changes in Image_Landscape
+            0.7.4
+                - Fixed icon visibility for pvr
+            0.7.3
+                - Fixed forced view
+                - Fix for ratings not showing in video osd
+                - Changed default to colorful for rating icons
+            0.7.2
+                - Added option to disable channel label in pvr guide
+            0.7.1
+                - Fixed text being truncated
+                - Fixed posters being cut off
+        </news>
+        <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_US">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="es">Limpio, minimalista, elegante, simple, ligero.</summary>
+        <summary lang="fr">Clair, minimaliste, &#233;l&#233;gant, simple et l&#233;ger.</summary>
+        <summary lang="fr_CA">Net, minimal, &#233;l&#233;gant, simple, l&#233;ger.</summary>
+        <summary lang="it">Pulita, minimale, elegante, semplice, leggera.</summary>
+        <summary lang="lt">&#352;vari, minimali, eleganti&#353;ka, paprasta, lengva.</summary>
+        <summary lang="nl">Schoon, minimaal, elegant, simpel, licht.</summary>
+        <summary lang="no">Rent, minimalt, elegant, enkelt, lett.</summary>
+        <summary lang="pl">Prosta, minimalistyczna, elegancka i lekka.</summary>
+        <summary lang="pt_BR">Limpa, simplista, elegante, leve.</summary>
+        <summary lang="ro">Curat, minimalist, elegant, simplu, u&#537;or</summary>
+        <summary lang="ru">&#1054;&#1087;&#1088;&#1103;&#1090;&#1085;&#1099;&#1081;, &#1084;&#1080;&#1085;&#1080;&#1084;&#1072;&#1083;&#1080;&#1089;&#1090;&#1080;&#1095;&#1085;&#1099;&#1081;, &#1101;&#1083;&#1077;&#1075;&#1072;&#1085;&#1090;&#1085;&#1099;&#1081;, &#1087;&#1088;&#1086;&#1089;&#1090;&#1086;&#1081;, &#1089;&#1074;&#1077;&#1090;&#1083;&#1099;&#1081;.</summary>
+
+        <description lang="en">This is a light mod of Arctic Zephyr 2 by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <description lang="pl">Jest to modyfikacja sk&#243;rki Arctic Zephyr 2 autorstwa heppen. Arctic Zephyr 2 jest minimalistyczn&#261; sk&#243;rk&#261; stworzon&#261; przez jurialmunkey i zmodowan&#261; do pracy z Kodi 19 Matrix przez pkscout. Sk&#243;rka zosta&#322;a zaprojektowana jako prosta, aby u&#380;ytkownik m&#243;g&#322; skupi&#263; si&#281; na swojej zawarto&#347;ci multimedialnej. Opr&#243;cz domy&#347;lnego jasnego schematu kolor&#243;w, sk&#243;rka zawiera r&#243;wnie&#380; kilka ciemniejszych wariant&#243;w.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
+        <source>https://github.com/nfm886/skin.arctic.zephyr.2.resurrection.mod</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+            <screenshot>resources/screenshot-06.jpg</screenshot>
+        </assets>
+    </extension>
 </addon></addons>
