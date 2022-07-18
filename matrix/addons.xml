@@ -568,7 +568,7 @@
             <screenshot>resources/screenshot-06.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.7~rc5" provider-name="chrisism">
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.7~rc6" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.22.0.1" />
