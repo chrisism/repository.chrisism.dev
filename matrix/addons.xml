@@ -338,33 +338,6 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
-</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.6" />
-      <import addon="script.module.pycryptodome" version="3.4.3" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Nvidia Gamestream scanner and launcher for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
-    Nvidia Gamestream library.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.nvgamestream</website>
-    <source>https://github.com/chrisism/script.akl.nvgamestream</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>First official release of this Nvidia gamestream plugins for AKL.</news>
-  </extension>
 </addon><addon id="skin.aeon.nox.silvo" version="8.0.2-rc64" provider-name="SiLVO">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
@@ -588,5 +561,32 @@
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching ([UPPERCASE]14)[/UPPERCASE][CR]- Use translated path for execution log files ([UPPERCASE]15)[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
+  </extension>
+</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc49" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.6" />
+      <import addon="script.module.pycryptodome" version="3.4.3" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Nvidia Gamestream scanner and launcher for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
+    Nvidia Gamestream library.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.nvgamestream</website>
+    <source>https://github.com/chrisism/script.akl.nvgamestream</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
 </addon></addons>
