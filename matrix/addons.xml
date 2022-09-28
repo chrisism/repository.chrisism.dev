@@ -619,7 +619,7 @@
     </assets>
     <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching ([UPPERCASE]14)[/UPPERCASE][CR]- Use translated path for execution log files ([UPPERCASE]15)[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
   </extension>
-</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.2~rc7" provider-name="chrisism">
+</addon><addon id="script.akl.retroarchlauncher" name="Retroarch Launcher for AKL" version="1.0.2~rc8" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.7" />
@@ -640,6 +640,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR]- Fixed Android execution for Kodi Nexus.[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
 </addon></addons>
