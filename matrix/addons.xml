@@ -589,7 +589,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
-</addon><addon id="skin.arctic.zephyr.mod" version="1.1.73~rc11" provider-name="jurialmunkey, beatmasterrs">
+</addon><addon id="skin.arctic.zephyr.mod" version="1.1.73~rc12" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
