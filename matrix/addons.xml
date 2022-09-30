@@ -616,7 +616,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
   </extension>
-</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.0.1~rc3" provider-name="chrisism">
+</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.0.1~rc4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.7" />
