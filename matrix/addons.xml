@@ -626,7 +626,7 @@
         <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
         <description lang="fr">Arctic: Zephyr - Reloaded est bas&#233; sur le skin original Arctic: Zephyr, cr&#233;&#233; par jurialmunkey. Arctic se focalise sur le fait d'&#234;tre simple, claire et minimaliste.</description>
     </extension>
-</addon><addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.3.0~rc9" provider-name="chrisism">
+</addon><addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.3.0~rc10" provider-name="chrisism">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0" />
