@@ -615,7 +615,23 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR]- Fixed Android execution for Kodi Nexus.[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
-</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc54" provider-name="chrisism">
+</addon><addon id="plugin.test.androidcmd" name="Android Command Tester" version="0.1.1~rc9" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Android commands in Kodi tester.</summary>
+    <description lang="en_GB">Plugin for testing android commands through Kodi.</description>
+    <platform>android linux</platform>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/plugin.program.akl</website>
+    <source>https://github.com/chrisism/plugin.program.akl</source>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
+</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.0~rc55" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.7" />
@@ -641,21 +657,5 @@
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
-  </extension>
-</addon><addon id="plugin.test.androidcmd" name="Android Command Tester" version="0.1.1~rc9" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-      <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Android commands in Kodi tester.</summary>
-    <description lang="en_GB">Plugin for testing android commands through Kodi.</description>
-    <platform>android linux</platform>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/plugin.program.akl</website>
-    <source>https://github.com/chrisism/plugin.program.akl</source>
-    <news>See changelog.txt for information about the latest release.</news>
   </extension>
 </addon></addons>
