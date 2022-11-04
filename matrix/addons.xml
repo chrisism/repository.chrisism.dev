@@ -642,7 +642,7 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
-</addon><addon id="plugin.test.androidcmd" name="Android Command Tester" version="0.1.0" provider-name="chrisism">
+</addon><addon id="plugin.test.androidcmd" name="Android Command Tester" version="0.1.1~rc9" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
   </requires>
