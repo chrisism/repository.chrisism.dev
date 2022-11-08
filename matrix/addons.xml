@@ -632,7 +632,7 @@
     </assets>
     <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.1.0~rc8" provider-name="chrisism,Wintermute0110">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.1.0~rc10" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
