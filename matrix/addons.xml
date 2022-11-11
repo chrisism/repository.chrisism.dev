@@ -636,7 +636,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to programs based file browser.[CR]- Added joystick suspend option.[CR]- Minor bugfixes.[CR]- Updated dependency to newer version of module and AKL.[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- First official release of this collection of default plugins for AKL.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.1.1~rc1" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.1.1~rc2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
@@ -662,6 +662,6 @@
       <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Bugfixes  [/UPPERCASE][CR]- Fixed virtual collections (Favs, Most recent ..)[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
   </extension>
 </addon></addons>
