@@ -636,7 +636,7 @@
     </assets>
     <news>## Current[CR]- Updated dependencies[CR]- Fix for nplayers metadata[CR]## Previous[CR]- Initial release of the MobyGames AKL plugin</news>
   </extension>
-</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.1~rc1" provider-name="chrisism">
+</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.1~rc2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.8" />
