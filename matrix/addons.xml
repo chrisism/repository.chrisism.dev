@@ -640,7 +640,7 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed scraping by using Google API engine[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Google search plugin for AKL.</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.9~rc4" provider-name="chrisism">
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.9~rc6" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.22.0.1" />
@@ -659,6 +659,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[UPPERCASE]In previous releases[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[UPPERCASE]In previous releases[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
   </extension>
 </addon></addons>
