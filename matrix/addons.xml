@@ -636,7 +636,7 @@ from The Games DB (TGDB).
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies[CR][UPPERCASE]Previous[/UPPERCASE][CR]- The initial release of TGDB plugin for the AKL fork.</news>
   </extension>
-</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.1~rc3" provider-name="chrisism">
+</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.1~rc4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.9" />
