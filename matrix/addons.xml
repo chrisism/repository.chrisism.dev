@@ -633,7 +633,7 @@ from The Games DB (TGDB).
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed scraping by using Google API engine[CR]- Added Youtube support[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Google search plugin for AKL.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.2.0~rc7" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.2.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
