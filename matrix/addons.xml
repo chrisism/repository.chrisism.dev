@@ -609,33 +609,6 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[UPPERCASE]In previous releases[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
   </extension>
-</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0~rc0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.9" />
-      <import addon="plugin.program.akl" version="1.1.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Steam scanner, scraper and launcher for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scanner, scraper and launcher plugin for AKL. It can scan and launch games from your 
-Steam library. It can scrape games available on Steam.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.steam</website>
-    <source>https://github.com/chrisism/script.akl.steam</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added scraper[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Steam plugin for AKL.</news>
-  </extension>
 </addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.1.0~rc7" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -661,5 +634,31 @@ from The Games DB (TGDB).
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added update/refresh settings command[UPPERCASE]Previous[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies</news>
+  </extension>
+</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0~rc3" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.10" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Steam scanner, scraper and launcher for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scanner, scraper and launcher plugin for AKL. It can scan and launch games from your 
+Steam library. It can scrape games available on Steam.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.steam</website>
+    <source>https://github.com/chrisism/script.akl.steam</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added scraper[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Steam plugin for AKL.</news>
   </extension>
 </addon></addons>
