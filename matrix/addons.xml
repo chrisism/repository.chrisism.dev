@@ -633,7 +633,7 @@ from The Games DB (TGDB).
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added update/refresh settings command[UPPERCASE]Previous[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.3.0~rc6" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.3.0~rc7" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
