@@ -649,7 +649,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections[CR]- Proper icon/thumb mapping for virtual collections[CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR]- Fixed virtual collections (Favs, Most recent ..)[CR]- Fixed scraping ROM assets only</news>
   </extension>
-</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.1.1~change-app-issue5" provider-name="chrisism">
+</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.1.1~change-app-issue6" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.11" />
@@ -670,6 +670,6 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to programs based file browser.[CR]- Added joystick suspend option.[CR]- Minor bugfixes.[CR]- Updated dependency to newer version of module and AKL.[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- First official release of this collection of default plugins for AKL.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed change file application for launcher.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Updated to programs based file browser.[CR]- Added joystick suspend option.[CR]- Minor bugfixes.[CR]- Updated dependency to newer version of module and AKL.</news>
   </extension>
 </addon></addons>
