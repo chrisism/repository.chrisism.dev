@@ -644,7 +644,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.4.1~rc1" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.4.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
