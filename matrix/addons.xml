@@ -600,32 +600,6 @@ Steam library. It can scrape assets for games available on Steam.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR]- Fixed Android execution for Kodi Nexus.[CR]- Android storage issue fixes[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
-</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.2.0~rc4" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0~rc1" />
-      <import addon="script.module.pycryptodome" version="3.4.3" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Nvidia Gamestream scanner and launcher for AKL plugin.</summary>
-    <description lang="en_GB">This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
-Nvidia Gamestream library. This plugin needs and is executed from within AKL.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.nvgamestream</website>
-    <source>https://github.com/chrisism/script.akl.nvgamestream</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for Sunshine gamestream server[UPPERCASE]Previous[/UPPERCASE][CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
-  </extension>
 </addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.0~rc4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -674,5 +648,31 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Separated launchers[CR]- Implemented sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
+  </extension>
+</addon><addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.2.0~rc5" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.1.0~rc4" />
+      <import addon="script.module.pycryptodome" version="3.4.3" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Nvidia Gamestream scanner and launcher for AKL plugin.</summary>
+    <description lang="en_GB">This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
+Nvidia Gamestream library. This plugin needs and is executed from within AKL.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.nvgamestream</website>
+    <source>https://github.com/chrisism/script.akl.nvgamestream</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for Moonlight-QT[CR]- Updated to new module[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
   </extension>
 </addon></addons>
