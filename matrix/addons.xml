@@ -647,7 +647,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to support new args approach for executors.[CR]- Fixed Android execution for Kodi Nexus.[CR]- Android storage issue fixes[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.0~rc38" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.0~rc39" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
