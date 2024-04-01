@@ -448,32 +448,6 @@
         <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
         <description lang="fr">Arctic: Zephyr - Reloaded est bas&#233; sur le skin original Arctic: Zephyr, cr&#233;&#233; par jurialmunkey. Arctic se focalise sur le fait d'&#234;tre simple, claire et minimaliste.</description>
     </extension>
-</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.2.0~rc1" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0~rc0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Mobygames scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can scan metadata and assets from the
-    Mobygames database.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.mobygames</website>
-    <source>https://github.com/chrisism/script.akl.mobygames</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added asset 'manual'[CR]- Added PEGI rating[UPPERCASE]Previous[/UPPERCASE][CR]- Updated dependencies[CR]- Fix for nplayers metadata</news>
-  </extension>
 </addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0~rc8" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -674,5 +648,31 @@ from The Games DB (TGDB).
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added update/refresh settings command[UPPERCASE]Previous[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies</news>
+  </extension>
+</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.2.0~rc2" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.1.0~rc5" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Mobygames scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It can scan metadata and assets from the
+    Mobygames database.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.mobygames</website>
+    <source>https://github.com/chrisism/script.akl.mobygames</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added asset 'manual'[CR]- Added PEGI rating[UPPERCASE]Previous[/UPPERCASE][CR]- Updated dependencies[CR]- Fix for nplayers metadata</news>
   </extension>
 </addon></addons>
