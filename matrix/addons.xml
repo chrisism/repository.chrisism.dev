@@ -595,34 +595,6 @@ Steam library. It can scrape assets for games available on Steam.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.0~rc67" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.routing" version="0.2.3" />
-      <import addon="script.module.akl" version="1.1.0~rc5" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-      <provides>executable game</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
-    <description lang="en_GB">Gaming front-end and general application launcher for Kodi. Supports scanning, scraping and launching of ROMs and games, using many plugins. Easily extendable with lots of plugins or create your own.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizzz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/plugin.program.akl</website>
-    <source>https://github.com/chrisism/plugin.program.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-      <screenshot>media/arcticzephyr_reloaded_01_companies.jpg</screenshot>
-      <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
-      <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
-  </extension>
 </addon><addon id="skin.arctic.zephyr.mod" version="3.0.2~rc67" name="Arctic: Zephyr - Reloaded" provider-name="jurialmunkey, beatmasterrs">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
@@ -675,4 +647,32 @@ Steam library. It can scrape assets for games available on Steam.
         <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
         <description lang="fr">Arctic: Zephyr - Reloaded est bas&#233; sur le skin original Arctic: Zephyr, cr&#233;&#233; par jurialmunkey. Arctic se focalise sur le fait d'&#234;tre simple, claire et minimaliste.</description>
     </extension>
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.0~rc68" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.routing" version="0.2.3" />
+      <import addon="script.module.akl" version="1.1.0~rc7" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
+    <description lang="en_GB">Gaming front-end and general application launcher for Kodi. Supports scanning, scraping and launching of ROMs and games, using many plugins. Easily extendable with lots of plugins or create your own.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizzz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/plugin.program.akl</website>
+    <source>https://github.com/chrisism/plugin.program.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+      <screenshot>media/arcticzephyr_reloaded_01_companies.jpg</screenshot>
+      <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
+      <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
+  </extension>
 </addon></addons>
