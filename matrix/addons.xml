@@ -647,7 +647,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
   </extension>
-</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.0~rc5" provider-name="chrisism">
+</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.1.07" />
