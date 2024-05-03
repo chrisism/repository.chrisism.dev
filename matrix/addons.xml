@@ -646,7 +646,7 @@ from The Games DB (TGDB).
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new module (sources)</news>
   </extension>
-</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0~rc11" provider-name="chrisism">
+</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.1.0" />
