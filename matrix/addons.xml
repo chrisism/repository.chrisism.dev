@@ -647,7 +647,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for Moonlight-QT[CR]- Updated to new module (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
   </extension>
-</addon><addon id="script.akl.gamefaqs" name="GameFAQs scraper plugin for AKL" version="1.0.0~rc16" provider-name="chrisism">
+</addon><addon id="script.akl.gamefaqs" name="GameFAQs scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.1.0" />
