@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.gamefaqs" name="GameFAQs scraper plugin for AKL" version="1.0.0~rc15" provider-name="chrisism">
+<addon id="script.akl.gamefaqs" name="GameFAQs scraper plugin for AKL" version="1.0.0~rc16" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.akl" version="1.1.0~rc5"/>
+      <import addon="script.module.akl" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>game</provides>
@@ -22,6 +22,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
   </extension>
 </addon>
