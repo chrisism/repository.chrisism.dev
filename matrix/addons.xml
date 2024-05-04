@@ -372,27 +372,6 @@
         <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
         <description lang="fr">Arctic: Zephyr - Reloaded est bas&#233; sur le skin original Arctic: Zephyr, cr&#233;&#233; par jurialmunkey. Arctic se focalise sur le fait d'&#234;tre simple, claire et minimaliste.</description>
     </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" version="2.22.0.1" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Windows LNK file execution fix[CR]- Added extras fields to scraped data[CR]- Use asset filenames that are allowed by system[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings</news>
-  </extension>
 </addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.2.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -671,5 +650,26 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Collections now use import rules from sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
+  </extension>
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.1~rc14" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.22.0.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Windows LNK file execution fix[CR]- Added extras fields to scraped data[CR]- Use asset filenames that are allowed by system[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings</news>
   </extension>
 </addon></addons>
