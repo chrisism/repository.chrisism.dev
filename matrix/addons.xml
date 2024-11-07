@@ -644,7 +644,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2~rc3" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2~rc4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
