@@ -644,7 +644,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added direct file launcher[CR]- Supporting new source types[CR]- Updated to programs based file browser.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added joystick suspend option.[CR]- Minor bugfixes.</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2~rc21" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2~rc22" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
