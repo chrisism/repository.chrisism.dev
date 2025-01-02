@@ -646,10 +646,10 @@ from The Games DB (TGDB).
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- New addon command and args parsing[CR]- Support for new module (sources)[CR]- Added update/refresh settings command[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies</news>
   </extension>
-</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.1~rc1" provider-name="chrisism">
+</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.1~rc2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0" />
+      <import addon="script.module.akl" version="1.2.0" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>game</provides>
