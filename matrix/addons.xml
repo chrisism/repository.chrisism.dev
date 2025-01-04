@@ -647,7 +647,7 @@ Steam library. It can scrape assets for games available on Steam.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to new version of AKL[CR]- Support for sources</news>
   </extension>
-</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.2~rc1" provider-name="chrisism">
+</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.2.0" />
