@@ -644,7 +644,7 @@ Steam library. It can scrape assets for games available on Steam.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new module (sources)</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2~rc25" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
