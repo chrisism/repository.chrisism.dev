@@ -644,7 +644,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
         <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
         <description lang="fr">Arctic: Zephyr - Reloaded est bas&#233; sur le skin original Arctic: Zephyr, cr&#233;&#233; par jurialmunkey. Arctic se focalise sur le fait d'&#234;tre simple, claire et minimaliste.</description>
     </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.3~rc1" provider-name="chrisism">
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.3~rc2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.routing" version="0.2.3" />
