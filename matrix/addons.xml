@@ -651,7 +651,7 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed launching standalone sources[CR]- Several fixes by mallexxx[CR]- Moved default asset paths to edit assets/artwork menu[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Separated launchers[CR]- Implemented sources[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Collections now use import rules from sources</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.2.1~rc1" provider-name="chrisism">
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.2.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" version="2.22.0.1" />
